@@ -222,7 +222,7 @@ module Geocoder
         if cache and body = cache[key]
           @cache_hit = true
         else
-          body = []
+          body = ''
           @cache_hit = false
         end
         body
